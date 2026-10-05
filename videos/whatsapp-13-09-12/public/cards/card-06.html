@@ -1,0 +1,61 @@
+<div class="card" data-card-id="card-06">
+<style>
+.card[data-card-id="card-06"] .root { position:absolute; inset:0; background:transparent; }
+.card[data-card-id="card-06"] .panel { position:absolute; left:48px; bottom:320px; width:912px; color:#ffffff;
+  font-family:'Inter', sans-serif; display:flex; flex-direction:column; align-items:flex-start; }
+.card[data-card-id="card-06"] .strip { background:#111111; padding:16px 28px 18px; max-width:912px; box-sizing:border-box;
+  box-shadow:0 22px 50px -24px rgba(0,0,0,.6); }
+.card[data-card-id="card-06"] .strip.meta-strip { width:912px; padding:22px 28px 14px; }
+.card[data-card-id="card-06"] .strip.wide { width:912px; padding-bottom:26px; }
+.card[data-card-id="card-06"] .strip.stamp-strip { padding:26px 28px 30px; }
+.card[data-card-id="card-06"] .rule { height:6px; width:0; background:#ffffff; }
+.card[data-card-id="card-06"] .meta { display:flex; justify-content:space-between; font:800 21px/1 'Inter', sans-serif;
+  letter-spacing:.2em; color:#ffffff; margin-top:12px; }
+.card[data-card-id="card-06"] .meta .num { color:#e8190f; }
+.card[data-card-id="card-06"] .eyebrow { font:600 30px/1.2 'Inter', sans-serif; color:rgba(255,255,255,.7); }
+.card[data-card-id="card-06"] .body { font:600 38px/1.25 'Inter', sans-serif; color:rgba(255,255,255,.7); }
+.card[data-card-id="card-06"] .w { display:inline-block; }
+.card[data-card-id="card-06"] .red { color:#e8190f; }
+.card[data-card-id="card-06"] .title { font:900 92px/0.98 'Inter', sans-serif; letter-spacing:-.035em; color:#ffffff; }
+.card[data-card-id="card-06"] .title.xl { font-size:112px; }
+.card[data-card-id="card-06"] .word { display:inline-block; white-space:nowrap; }
+.card[data-card-id="card-06"] .word.red { color:#e8190f; }
+.card[data-card-id="card-06"] .char { display:inline-block; }
+.card[data-card-id="card-06"] .row { display:flex; align-items:center; gap:24px; flex-wrap:wrap; }
+.card[data-card-id="card-06"] .slab { display:inline-flex; align-items:center; gap:14px; background:#e8190f; color:#fff;
+  padding:16px 22px; font:900 40px/1 'Inter', sans-serif; letter-spacing:.02em; }
+.card[data-card-id="card-06"] .slab.ink { background:#111111; }
+.card[data-card-id="card-06"] .label { font:800 22px/1 'Inter', sans-serif; letter-spacing:.2em; color:rgba(255,255,255,.7); }
+.card[data-card-id="card-06"] .label.red-ink { color:#e8190f; }
+.card[data-card-id="card-06"] .underline { height:12px; width:0; background:#e8190f; margin-top:-8px; }
+.card[data-card-id="card-06"] .dates { display:flex; align-items:center; gap:18px; margin-top:4px; }
+.card[data-card-id="card-06"] .date { background:#111111; color:#fff; padding:14px 22px 16px; display:flex; flex-direction:column;
+  align-items:flex-start; min-width:178px; }
+.card[data-card-id="card-06"] .date b { font:900 92px/0.9 'Inter', sans-serif; letter-spacing:-.04em; color:#fff; }
+.card[data-card-id="card-06"] .date span { font:900 32px/1.1 'Inter', sans-serif; letter-spacing:.08em; color:#e8190f; }
+.card[data-card-id="card-06"] .date small { font:800 16px/1 'Inter', sans-serif; letter-spacing:.2em; color:rgba(255,255,255,.7); margin-top:6px; }
+.card[data-card-id="card-06"] .arrow-path { fill:none; stroke:#111111; stroke-width:7; stroke-linecap:square; }
+.card[data-card-id="card-06"] .chip { margin-left:auto; background:#e8190f; color:#fff; padding:14px 18px; font:900 30px/1 'Inter', sans-serif;
+  letter-spacing:.06em; align-self:flex-end; }
+.card[data-card-id="card-06"] .chip b { font-size:44px; }
+.card[data-card-id="card-06"] .chip.ghost { margin-left:0; background:transparent; color:#ffffff; border:4px solid #ffffff; align-self:center; }
+.card[data-card-id="card-06"] .check { display:flex; align-items:center; gap:22px; }
+.card[data-card-id="card-06"] .box { width:64px; height:64px; flex:none; background:#e8190f; display:flex; align-items:center; justify-content:center; }
+.card[data-card-id="card-06"] .tick { fill:none; stroke:#fff; stroke-width:6; stroke-linecap:square; }
+.card[data-card-id="card-06"] .ctext { font:900 54px/1.05 'Inter', sans-serif; letter-spacing:-.025em; }
+.card[data-card-id="card-06"] .stage-a, .card[data-card-id="card-06"] .stage-b { display:flex; flex-direction:column; align-items:flex-start; }
+.card[data-card-id="card-06"] .stage-b { position:absolute; left:0; bottom:0; opacity:0; }
+.card[data-card-id="card-06"] .mantra { display:flex; gap:22px; flex-wrap:wrap; }
+.card[data-card-id="card-06"] .mword { font:900 84px/1 'Inter', sans-serif; letter-spacing:-.035em; }
+.card[data-card-id="card-06"] .mword.red { color:#e8190f; }
+.card[data-card-id="card-06"] .big { font:900 150px/0.9 'Inter', sans-serif; letter-spacing:-.045em; }
+.card[data-card-id="card-06"] .stamp { align-self:flex-start; border:8px solid #e8190f; color:#e8190f; padding:14px 22px;
+  font:900 54px/1.02 'Inter', sans-serif; letter-spacing:.01em; transform:rotate(-6deg); }
+.card[data-card-id="card-06"] .bell { transform-origin:50% 10%; }
+</style>
+<div class="root"><div class="panel">
+<div class="strip meta-strip"><div id="card-06-rule" class="rule" data-anim="grow-x" data-anim-at="0.1333" data-anim-duration="0.5" data-anim-target-w='856'></div><div id="card-06-meta" class="meta" data-anim="fade-in" data-anim-at="0.3" data-anim-duration="0.35"><span>GEÇMİŞ DÖNEM TECRÜBESİ</span><span class="num">06 / 08</span></div></div>
+<div class="stage-a" id="card-06-a"><div id="card-06-s0" class="strip" data-anim="slide-in" data-anim-at="0.0" data-anim-duration="0.32" data-anim-from='bottom' data-anim-distance='28'><div id="card-06-past" class="body"><span id="card-06-past-w0" class="w" data-anim="slide-in" data-anim-at="0.0" data-anim-duration="0.28" data-anim-from='bottom' data-anim-distance='22'>Geçmiş</span> <span id="card-06-past-w1" class="w" data-anim="slide-in" data-anim-at="0.6667" data-anim-duration="0.28" data-anim-from='bottom' data-anim-distance='22'>dönemlerin</span> <span id="card-06-past-w2" class="w" data-anim="slide-in" data-anim-at="1.0667" data-anim-duration="0.28" data-anim-from='bottom' data-anim-distance='22'>tecrübesi:</span></div></div><div id="card-06-s1" class="strip" data-anim="slide-in" data-anim-at="2.5" data-anim-duration="0.32" data-anim-from='bottom' data-anim-distance='28'><div id="card-06-err" class="title" data-anim="kinetic-chars" data-anim-at="2.5667" data-anim-duration="0.42" data-anim-stagger='0.02' data-anim-pattern='pop'><span class="word"><span class="char">K</span><span class="char">ü</span><span class="char">ç</span><span class="char">ü</span><span class="char">k</span></span> <span class="word"><span class="char">k</span><span class="char">ü</span><span class="char">ç</span><span class="char">ü</span><span class="char">k</span></span> <span class="word red"><span class="char">h</span><span class="char">a</span><span class="char">t</span><span class="char">a</span><span class="char">l</span><span class="char">a</span><span class="char">r</span></span> <span class="word"><span class="char">o</span><span class="char">l</span><span class="char">a</span><span class="char">c</span><span class="char">a</span><span class="char">k</span><span class="char">.</span></span></div></div></div>
+<div class="stage-b" id="card-06-b"><div id="card-06-s2" class="strip" data-anim="slide-in" data-anim-at="3.9333" data-anim-duration="0.32" data-anim-from='bottom' data-anim-distance='28'><div id="card-06-so" class="body"><span id="card-06-so-w0" class="w" data-anim="slide-in" data-anim-at="3.9667" data-anim-duration="0.28" data-anim-from='bottom' data-anim-distance='22'>Onun</span> <span id="card-06-so-w1" class="w" data-anim="slide-in" data-anim-at="4.3333" data-anim-duration="0.28" data-anim-from='bottom' data-anim-distance='22'>için</span> <span id="card-06-so-w2" class="w" data-anim="slide-in" data-anim-at="4.5667" data-anim-duration="0.28" data-anim-from='bottom' data-anim-distance='22'>ilk</span> <span id="card-06-so-w3" class="w" data-anim="slide-in" data-anim-at="4.8333" data-anim-duration="0.28" data-anim-from='bottom' data-anim-distance='22'>gün</span> <span id="card-06-so-w4" class="w" data-anim="slide-in" data-anim-at="5.9333" data-anim-duration="0.28" data-anim-from='bottom' data-anim-distance='22'>yüklenmeyelim.</span></div></div><div id="card-06-s3" class="strip" data-anim="slide-in" data-anim-at="6.7667" data-anim-duration="0.32" data-anim-from='bottom' data-anim-distance='28'><div class="mantra"><div id="card-06-m1" class="mword" data-anim="scale-pop" data-anim-at="6.8333" data-anim-duration="0.4">Sakin.</div><div id="card-06-m2" class="mword" data-anim="scale-pop" data-anim-at="7.9333" data-anim-duration="0.4">Sabırlı.</div><div id="card-06-m3" class="mword red" data-anim="scale-pop" data-anim-at="8.8333" data-anim-duration="0.4">Bekleyelim.</div></div></div></div>
+</div></div>
+</div>

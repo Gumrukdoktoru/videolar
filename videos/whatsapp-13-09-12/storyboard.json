@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "durationSeconds": 58.68,
+    "layout": "portrait",
+    "themeId": "mono",
+    "seed": 1309
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 58.68,
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "Open with the greeting and wish good luck to everyone sitting the exam",
+      "startSec": 0.15,
+      "endSec": 6.45,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "SINAV DUYURUSU",
+        "title": "Hayırlı uğurlu olsun!",
+        "detail": "Tüm meslektaşlarıma, sınava girecek arkadaşlarıma"
+      },
+      "archetype": "swiss-paper"
+    },
+    {
+      "id": "card-02",
+      "intent": "Exam date is out; what matters now is the application window",
+      "startSec": 6.85,
+      "endSec": 14.95,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "SINAV TAKVİMİ",
+        "title": "Sınav tarihi yayınlandı",
+        "focus": "Başvuru tarihleri"
+      },
+      "archetype": "swiss-paper"
+    },
+    {
+      "id": "card-03",
+      "intent": "Where and when: Hacettepe exam system, 19 to 30 October",
+      "startSec": 15.15,
+      "endSec": 22.75,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "BAŞVURU",
+        "title": "Hacettepe Üniversitesi",
+        "data": {
+          "start": "19 Ekim",
+          "end": "30 Ekim",
+          "days": 12
+        }
+      },
+      "archetype": "swiss-paper"
+    },
+    {
+      "id": "card-04",
+      "intent": "We will remind you every day and share how-to-apply videos",
+      "startSec": 22.85,
+      "endSec": 29.0,
+      "accentIndex": 2,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "SİZE DESTEK",
+        "checklist": [
+          "Her gün hatırlatma",
+          "Başvuru anlatım videoları"
+        ]
+      },
+      "archetype": "swiss-paper"
+    },
+    {
+      "id": "card-05",
+      "intent": "Request: don't all upload on day one, the system will lock",
+      "startSec": 29.1,
+      "endSec": 35.95,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "RİCAM",
+        "title": "Hep beraber yüklenmeyelim",
+        "warning": "Sistem kilitlenecek"
+      },
+      "archetype": "swiss-red"
+    },
+    {
+      "id": "card-06",
+      "intent": "From past experience there will be small glitches; stay calm and patient",
+      "startSec": 36.3,
+      "endSec": 45.85,
+      "accentIndex": 4,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "GEÇMİŞ DÖNEM TECRÜBESİ",
+        "title": "Küçük küçük hatalar olacak",
+        "mantra": [
+          "Sakin",
+          "Sabırlı",
+          "Bekleyelim"
+        ]
+      },
+      "archetype": "swiss-ink"
+    },
+    {
+      "id": "card-07",
+      "intent": "Applications open 19 October; we don't upload on day one",
+      "startSec": 45.95,
+      "endSec": 51.0,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "HATIRLATMA",
+        "title": "19 Ekim",
+        "stamp": "İlk gün yüklenmiyoruz"
+      },
+      "archetype": "swiss-paper"
+    },
+    {
+      "id": "card-08",
+      "intent": "Close: we'll keep you informed at every step",
+      "startSec": 51.05,
+      "endSec": 58.68,
+      "accentIndex": 3,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "TAKİPTE KALIN",
+        "title": "An be an",
+        "detail": "bütün süreçlerden bilgilendireceğiz"
+      },
+      "archetype": "swiss-ink"
+    }
+  ]
+}
